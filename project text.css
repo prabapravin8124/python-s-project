@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .ul1{
+    display: flex;
+} */
+/* .down{
+    position: absolute;
+    top: 100px;
+    display: none;
+}
+.down1{
+      padding-left: 300px;
+      gap: 20px;
+}
+li.hover.down{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    display: block;
+    opacity: 1;
+} */
+ .ul1{
+    /* position: absolute; */
+    /* top: 150px; */
+    display: none;
+}
+.down1{
+     padding-top: 100px;
+     gap: 100px;
+     background-color: blanchedalmond;
+}
+li:hover .down {
+    width: 100%;
+   height: 100vh;
+   opacity: 1;
+   display: block;
+   color: white;
+   background-color: black;
+   position: absolute;
+   right: 0px;
+   display: flex;
+}

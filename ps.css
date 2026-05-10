@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+ div::-webkit-scrollbar{
+                width: 0px;
+            }
+
+  .box{
+    width: 70%;
+    height: 600px;
+    
+}         
+.box{
+    position: absolute;
+    top: 150px;
+    display: none;
+}
+.box1{
+
+     gap: 100px;
+}
+li:hover .box {
+     width: 90%;
+     height: 100vh;
+     opacity: 1;
+     display: block;
+     color: lightblue;
+     background-color: black;
+     position: absolute;
+     right: 0px;
+     display: flex;
+            
+}
+.rool{
+     padding-left: 500px;
+ }
+.link{
+    display: flex;
+    gap: 50px;
+}
+
+
+.over{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700vh;
+    overflow: auto;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: black;
+}
+.iphone{
+    width: 50px;
+    height: 30px;
+   
+}
+.search{
+     width: 30px;
+    height: 30px;
+}
+.h4{
+    width: 75%;
+    height: 100px;
+    /* background-color: #d1cfcf; */
+    /* display: flex;
+    justify-content: center; */
+}

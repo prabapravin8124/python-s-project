@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+ div::-webkit-scrollbar{
+                width: 0px;
+            }
+
+  .box{
+    width: 70%;
+    height: 600px;
+    
+}         
+.box{
+    position: absolute;
+    top: 100px;
+    display: none;
+}
+.box1{
+     gap: 100px;
+}
+li:hover .box {
+     width: 100%;
+     height: 100vh;
+     opacity: 1;
+     display: block;
+     color: black;
+     background-color: rgb(204, 199, 199);
+     position: absolute;
+     right: 0px;
+     display: flex;        
+}
+li{
+    cursor: pointer;
+}
+.rool{
+     padding-left: 500px;
+ }
+.link{
+    display: flex;
+    gap: 50px;
+}
+
+
+.over{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700vh;
+    overflow: auto;
+    /* position: fixed; */
+
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: black;
+}
+.iphone{
+    width: 50px;
+    height: 30px;
+   
+}
+.search{
+     width: 30px;
+    height: 30px;
+}
+.nav_content{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    padding-top: 15px;
+    background-color: rgb(163, 159, 159);
+}
+.iphone_17_pro{
+    width: 100%;
+    height: 700px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+}
+.p{
+    display: flex;
+    justify-content: center;
+}
+.two_of_div{
+    width: 100%;
+    /* height: 200px; */
+    background-color: white;
+    display: flex;
+    color: black;
+    justify-content: center;
+    gap: 900px;
+}
+.text{
+    font-size: 50px;
+    margin-top: 150px;  
+}
+.p1{
+    margin-top: 150px;  
+}
+.img_of_div{
+    margin-top: 100px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 200px;
+}
+.img_of_class{
+    margin-left: 70px;
+    width: 1500px;
+    height: 700px;
+    border-radius: 50px;
+}
+.time{
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+}
+.design{
+    margin-left: 200px;
+    color: orange;
+}
+.endframe{
+    margin-top: 200px;
+    width: 1500px;
+    height: auto;
+}
+.lasts{
+   margin-top: 100px;
+   display: flex;
+   color: rgb(160, 157, 157);
+   display: flex;
+   justify-content: center;
+}
+.look_content{
+    width: 1600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 50px;
+    background-color: #ece6e6;
+
+    /* border: 2px solid white; */
+}
+.look_content1{
+    margin: auto;
+    width: 600px;
+    height: 350px;
+    margin-top: 70px;
+    background-color: #ece6e6;
+       /* background-color: #fff; */
+ 
+}
+.look_img{
+    width: 150px;
+    height: 150px;
+    margin-left: 170px;
+    border-radius: 50%;
+
+}
+.box_last{
+    display: flex;
+}
+.box_of_last1{
+    color: black;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.box_of_last2{
+    color: black;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.box_of_last3{
+    color: black;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.box_textall{
+    width: 75%;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: black;
+
+    /* background-color: rgb(235, 235, 175); */
+}
